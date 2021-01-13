@@ -18,53 +18,53 @@ function writePassword() {
 
   // Valid length, prompt lowercase
   var lower = window.confirm('Include lowercase letters?');
-  if (lower) {
-    var randomLower = lowerCaseLettersAre[Math.floor(Math.random()*lowerCaseLettersAre.length)];
-    console.log('include lowercase letters ' + randomLower);
-    // password.push(randomLower);
-  } else {
-    console.log('dont include lowercase letters.');
-  }
-
+  
   // prompt uppercase
   var upper = window.confirm('Include uppercase letters?');
-  if (upper) {
-    var randomUpper = upperCaseLettersAre[Math.floor(Math.random()*upperCaseLettersAre.length)];
-    console.log('include uppercase letters ' + randomUpper);
-    // password.push(randomUpper);
-  } else {
-    console.log('dont include uppercase letters.');
-  }
-
+  
   // prompt numbers
   var numbers = window.confirm('Include numbers?');
-  if (numbers) {
-    var randomNumber = numericalCharsAre[Math.floor(Math.random()*numericalCharsAre.length)];
-    console.log('include numbers ' + randomNumber);
-    // password.push(randomNumber);
-  } else {
-    console.log('dont include numbers.');
-  }
-
+  
   // prompt special
   var special = window.confirm('Include special characters?');
-  if (special) {
-    var randomSpecial = specialCharsAre[Math.floor(Math.random()*specialCharsAre.length)];
-    console.log('include special characters ' + randomSpecial);
-    // password.push(randomSpecial);
-  } else {
-    console.log('dont include special characters.');
-  }
-
+  
   // generate password
-  var password = generatePassword(); {
-    for (let index = 0; index < passwordLength; index++) {
-      if (password > passwordLength) break;
-      password.push(i);
-      const element = array[index];
-      
+  var password = generatePassword(password); {
+    for (i = 0; i < passwordLength; i++) {
+      if (password.length === passwordLength) break;
+
+      if (lower === confirm) {
+        var randomLower = lowerCaseLettersAre[Math.floor(Math.random()*lowerCaseLettersAre.length)];
+        console.log('include lowercase letters ' + randomLower);
+      } else {
+        console.log('dont include lowercase letters.');
+      }
+
+      if (upper === confirm) {
+        var randomUpper = upperCaseLettersAre[Math.floor(Math.random()*upperCaseLettersAre.length)];
+        console.log('include uppercase letters ' + randomUpper);
+      } else {
+        console.log('dont include uppercase letters.');
+      }
+
+      if (numbers === confirm) {
+        var randomNumber = numericalCharsAre[Math.floor(Math.random()*numericalCharsAre.length)];
+        console.log('include numbers ' + randomNumber);
+      } else {
+        console.log('dont include numbers.');
+      }
+
+      if (special === confirm) {
+        var randomSpecial = specialCharsAre[Math.floor(Math.random()*specialCharsAre.length)];
+        console.log('include special characters ' + randomSpecial);
+      } else {
+        console.log('dont include special characters.');
+      }
+
+      return value;
     }
   }
+
   var passwordText = document.querySelector("#password");
 
   window.alert('generate a password');
