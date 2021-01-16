@@ -9,7 +9,6 @@ Javascript is the primary language used. You will see two script files, my first
 The remaining challenges came from Javascript syntax required to tie in the HTML document.
 
 ## Table of Contents
-* [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
