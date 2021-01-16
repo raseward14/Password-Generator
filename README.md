@@ -24,4 +24,4 @@ Here are a few resources that helped me get this project knocked out!
 * [Programming with Mosh](https://www.youtube.com/watch?v=N8ap4k_1QEQ)
 
 ## License
-©2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+©2021 Richard Seward. All Rights Reserved.
