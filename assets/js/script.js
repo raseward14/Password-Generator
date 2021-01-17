@@ -73,10 +73,7 @@ function generatePassword() {
   }
 }
 
-
 window.alert('generate a password');
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);

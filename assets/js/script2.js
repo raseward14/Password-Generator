@@ -11,6 +11,8 @@ var results = [];
 
 function writePassword() {
 
+    results.splice(0, results.length);
+
     // Prompted to enter password length
     passwordLength = parseInt(window.prompt('How many characters do you want your password to be?'));
     // Invalid length, end function
